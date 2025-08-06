@@ -202,7 +202,9 @@ const Contact = () => {
               Let's turn your ideas into reality with professional development services
             </p>
             <a
-              href="mailto:shababakbar.dev@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&to=shababakbar.dev@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
             >
               Send Email Now
