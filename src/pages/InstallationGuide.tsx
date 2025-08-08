@@ -518,12 +518,19 @@ npm install -D @types/node
 npm run dev`}</CodeBlock>
           </div>
 
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-            <h4 className="font-semibold text-blue-900 mb-2">🎥 Full YouTube Tutorial</h4>
-            <p className="text-blue-800">
-              A complete video walkthrough for every step listed above is coming soon!
-            </p>
-          </div>
+          <a
+            href="https://youtu.be/H8ZDPKbvcdo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 hover:bg-blue-100 transition-colors">
+              <h4 className="font-semibold text-blue-900 mb-2">🎥 Full YouTube Tutorial</h4>
+              <p className="text-blue-800">
+                A complete video walkthrough for implementing every step listed above.
+              </p>
+            </div>
+          </a>
         </div>
       )
     }
