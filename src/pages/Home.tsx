@@ -192,10 +192,15 @@ const Home = () => {
                   <Github className="mr-2 h-4 w-4" />
                   GitHub Repository
                 </a>
-                <div className="flex items-center text-gray-500">
+                <a
+                  href="https://youtu.be/H8ZDPKbvcdo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-gray-900 font-semibold hover:text-red-600 transition-colors"
+                >
                   <Youtube className="mr-2 h-4 w-4" />
-                  <span>YouTube Tutorial (Coming Soon)</span>
-                </div>
+                  YouTube Tutorial
+                </a>
               </div>
             </motion.div>
           </div>
