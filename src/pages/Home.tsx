@@ -182,7 +182,7 @@ const Home = () => {
                 Access the complete source code, documentation, and contribute 
                 to the project on GitHub.
               </p>
-              <div className="space-y-3">
+              <div className="flex flex-col space-y-3">
                 <a
                   href="https://github.com/SyedShababAkbar/AI-Classroom-Assistant"
                   target="_blank"
